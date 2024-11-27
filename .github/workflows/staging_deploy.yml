@@ -34,7 +34,6 @@ jobs:                 # every job needs a host to run the job
       AWS_SECRET_ACCESS_KEY:  ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       AWS_SESSION_TOKEN:  ${{ secrets.AWS_SESSION_TOKEN }}
 
-
     steps:        # there are steps
         # The actions/checkout action is a pre-built GitHub Action that checks out (downloads) the repository's code from GitHub into the runner's environment during a GitHub Actions workflow
         # actions/checkout@v3 is pre-built GitHub Action checkout version 3
